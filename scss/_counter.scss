@@ -1,0 +1,28 @@
+.counter-section {
+  background-image: url("http://pixner.net/jugaro/jugaro/assets/images/counter-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px 0px;
+  box-shadow: inset 0px 15px 15px -10px #00a2ff,
+    inset 0px -15px 15px -10px #00a2ff;
+  .counter {
+    h2 {
+      font-weight: 700;
+      font-size: 60px;
+      line-height: 70px;
+      text-shadow: 0px 0px 20px #00a2ff;
+      color: #00a2ff;
+    }
+    h6 {
+      color: white;
+      font-size: 18px;
+      line-height: 28px;
+      font-weight: 400;
+    }
+  }
+}
+.middle-counter {
+  border-left: 1px solid #504f8d;
+  border-right: 1px solid #504f8d;
+}

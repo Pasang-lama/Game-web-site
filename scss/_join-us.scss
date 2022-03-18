@@ -1,0 +1,55 @@
+.join-us{
+    padding: 100px 0px 100px;
+    background-color: #1f0644;
+    background-image: url("http://pixner.net/jugaro/jugaro/assets/images/joinus-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    .left-image{
+        position: absolute;
+        bottom: 0px;
+        left: 100px;
+    }
+    h5{
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 700;
+    color: #fa009f;
+    margin-bottom: 13px;
+    }
+    h2{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 7px;
+    text-shadow: 0px -3px 10px rgb(12 19 55 / 70%);
+    }
+    h6{
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400;
+        color: #fff;
+    }
+    .button-magic {
+     margin-top: 40px;
+        button {
+          width: 150px;
+          height: 60px;
+          border-radius: 47px;
+          background-color: transparent;
+          color: white;
+          font-size: 30px;
+          font-weight: bold;
+          box-shadow: inset 0px 0px 10px 7px #fea036;
+          display: inline-block;
+          border: transparent;
+          &:hover {
+            box-shadow: inset 0px 0px 10px 7px #0973c4;
+          }
+        }
+      }
+}

@@ -1,0 +1,57 @@
+.gamelist{
+    background-color:#1F0644;
+
+    .title{
+        color: #FA009F;
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .sub-title{
+        font-size: 50px;
+        line-height: 60px;
+        color: white;
+    }
+    .archive-box{
+        border-radius: 20px;
+        background-color: #24074f;
+        padding: 30px;
+        .single-row{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            border-top: 4px solid #211863;
+            border-bottom: 4px solid #211863;
+            margin-bottom: 10px;
+            padding: 20px 0px 20px;
+        }
+        .left-play{
+            display: flex;
+            align-items: center;
+            img{
+                margin-right: 20px;
+                height: 70px;
+            }
+            h6{
+                font-size: 18px;
+                line-height: 28px;
+                font-weight: 600;
+                color: #ced0e2;
+            }
+        }
+        .right-play{
+            display: flex;
+            align-items: center;
+            img{
+                margin-left: 20px;
+                height: 70px;
+            }
+            h6{
+                font-size: 18px;
+                line-height: 28px;
+                font-weight: 600;
+                color: #fcc310;
+               
+            }
+        }
+    }
+}

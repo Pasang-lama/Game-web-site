@@ -1,0 +1,166 @@
+.header-banner {
+  background-image: url("http://pixner.net/jugaro/jugaro/assets/images/home/h1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #5c178c;
+}
+.top-header {
+  border-bottom: 1px solid whitesmoke;
+  color: #9f9be5;
+  background-color: #691495;
+  font-size: 17px;
+  &::after{
+    position: absolute;
+    content: "";
+    top: 0px;
+    left: 79px;
+    width: 0;
+    height: 0;
+    border-top: 79px solid rgb(105 20 149);
+    border-left: 33px solid transparent;
+  }
+  i {
+    font-size: 17px;
+  }
+
+
+}
+.left-contain {
+  &::before{
+    position: absolute;
+    content: "";
+    top: 0px;
+    right: 75px;
+    width: 0;
+    height: 0;
+    border-top: 79px solid #691495;
+    border-right: 36px solid transparent;
+  }
+  ul {
+    list-style: none;
+    li {
+      display: inline-block;
+      padding: 10px;
+      a {
+        text-decoration: none;
+        color: #a1aed4;
+      }
+    }
+  }
+}
+.right-contain {
+  i {
+    color: #0a95ee;
+    font-weight: bolder;
+  }
+}
+.dropdown-menu-header {
+  ul {
+    li {
+      a {
+        &:hover {
+          background-color: #0a95ee;
+          color: white;
+        }
+      }
+    }
+  }
+}
+.nab-bar {
+  font-size: 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  .logo {
+    display: block;
+  }
+  .nav {
+    ul {
+      list-style: none;
+      li {
+        display: inline;
+        padding: 20px;
+        font-size: 20px;
+        font-weight: bold;
+
+        a {
+          text-decoration: none;
+          color: white;
+          &:hover {
+            color: #f6049c;
+            text-shadow: 0px 2px 16px #f6049c;
+          }
+        }
+      }
+    }
+  }
+}
+.button-magic {
+  button {
+    width: 150px;
+    height: 60px;
+    border-radius: 47px;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    box-shadow: inset 0px 0px 10px 7px #fea036;
+    display: inline-block;
+    border: transparent;
+    &:hover {
+      box-shadow: inset 0px 0px 10px 7px #0973c4;
+    }
+  }
+}
+.text {
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 140px;
+
+  text-shadow: 0 -6px 6px #1b7ae2;
+}
+.video-button {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 40px;
+  text-align: center;
+  background: #ef764c;
+  border-radius: 50%;
+  color: #fff;
+  display: inline-block;
+  position: relative;
+  z-index: 3;
+  font-size: 14px;
+
+  &::before {
+    content: "";
+    background-image: url("http://pixner.net/jugaro/jugaro/assets/images/video_btn.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: -33%;
+    left: -42%;
+    z-index: -1;
+  }
+  &:hover {
+    color: white;
+  }
+}
+.banner-footer {
+  padding-bottom: 215px;
+}
+.back-img {
+  img {
+    width: 95%;
+    position: absolute;
+    top: 193px;
+    left: 50px;
+  }
+}

@@ -1,0 +1,232 @@
+.footer{
+    background: #1F0644;
+    padding: 20px;
+}
+.footer-top{
+    text-align: center;
+    .heading{
+        h5{
+            font-size: 28px;
+            line-height: 38px;
+            font-weight: 700;
+            color: #fa009f;
+            margin-bottom: 13px;
+            }
+            h2{
+            font-size: 60px;
+            line-height: 70px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #fff;
+            margin-bottom: 7px;
+            text-shadow: 0px -3px 10px rgb(12 19 55 / 70%);
+            }
+            h6{
+                font-size: 18px;
+                line-height: 28px;
+                font-weight: 400;
+                color: #fff;
+            }
+    }
+    img{
+        height: 200px;
+        display: block;
+        margin: auto;
+    }
+    h4{
+        color: white;
+        margin-top: 20px;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .button-magic {
+        margin-top: 20px;
+           button {
+             width: 300px;
+             height: 60px;
+             border-radius: 47px;
+             background-color: transparent;
+             color: white;
+             font-size: 30px;
+             font-weight: bold;
+             box-shadow: inset 0px 0px 10px 7px #fea036;
+             display: inline-block;
+             border: transparent;
+             &:hover {
+               box-shadow: inset 0px 0px 10px 7px #0973c4;
+             }
+           }
+         }
+}
+.subcribe-box{
+    background-image: url("http://pixner.net/jugaro/jugaro/assets/images/newsletter.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 44px 30px 60px;
+    margin: 0px 120px;
+    box-shadow: inset 0px 0px 10px 7px #00a2ff;
+    border-radius: 30px;
+    position: relative;
+    bottom: -145px;
+    z-index: 999;
+   
+    .left {
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        display: block;
+   
+      
+      }
+      .right {
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+        display: block;
+        
+      }
+    h5{
+        font-size: 28px;
+        line-height: 38px;
+        font-weight: 700;
+        color: #fa009f;
+        margin-bottom: 13px;
+    }
+    h2{
+        font-size: 40px;
+        line-height: 70px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #fff;
+        margin-bottom: 7px;
+        text-shadow: 0px -3px 10px rgb(12 19 55 / 70%);
+    }
+.form-area{
+    margin-top: 50px;
+    input{
+        color: white;
+        height: 60px;
+        width: 100%;
+        box-shadow: inset 0px 0px 10px 7px #bf1995;
+        border: 2px solid #e78c35;
+        font-size: 18px;
+        padding: 0px 160px 0px 30px;
+        border-radius: 50px;
+        position: relative;
+        background: none;
+    }
+    button {
+        width: 200px;
+        height: 60px;
+        border-radius: 50px;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        box-shadow: inset 0px 0px 10px 7px #fea036;
+        display: inline-block;
+        border: transparent;
+        background: #53196a;
+        position: absolute;
+        top: 222px;
+        right: 285px;
+        &:hover {
+          box-shadow: inset 0px 0px 10px 7px #0973c4;
+        }
+      }
+    }
+}
+
+
+
+.main-footer{
+    position: relative;
+    padding-top: 240px;
+    overflow: hidden;
+    background-image: url("http://pixner.net/jugaro/jugaro/assets/images/footerbg.jpg");
+    background-color: #070b28;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    .image{
+        margin-top: -50px;
+        display: flex;
+        justify-content: center;
+        a{
+            text-decoration: none;
+            img{
+                display: block; 
+             }
+        }
+    }
+    .social-link{
+        padding: 40px 0px;
+        text-align: center;
+        ul{
+            list-style: none;
+            li{
+                display: inline-block;
+                a{
+                    text-decoration: none;
+                    display: inline-block;
+                    color: white;
+                    width: 35px;
+                    height: 35px;
+                    line-height: 35px;
+                    border-radius: 50%;
+                    border: 1px solid rgba(255, 255, 255, 0.3);
+                    font-size: 14px;
+                    transition: all 0.3s ease-in;
+                    margin: 0px 5px;
+                    &:hover{
+                        background-color: #F7B230;
+                    }
+                  
+                }
+            }
+        }
+    }
+    .main-footer-content{
+        margin-top: 115px;
+        display: block;
+        padding-bottom: 30px;
+        text-align: center;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        ul{
+            list-style: none;
+            .last-element{
+                border: none;
+            }
+            li{
+                 text-align: center;
+                display: inline-block;
+                padding-right: 35px;
+                margin-right: 35px;
+                border-right: 2px solid #686fc5;;
+                a{
+                    text-decoration: none;
+                    font-size: 18px;
+                    line-height: 28px;
+                    font-weight: 600;
+                    color: #d2d5fc;
+                }
+            }
+        }
+    }
+    .copyright{
+        padding: 20px;
+        text-align: center;
+        p{
+            display: inline-block;
+            font-size: 18px;
+            line-height: 28px;
+            color: #d2d5fc;
+            font-weight: 600;
+        }
+    }
+
+}
+
+   
+   

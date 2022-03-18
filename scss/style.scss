@@ -1,0 +1,16 @@
+@import "header";
+@import "import";
+@import "counter";
+@import "game-play-section";
+@import "gamelist";
+@import "join-us";
+@import "footer";
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  border: 0%;
+}
+html {
+  font-family: "Open Sans", sans-serif;
+  color: #a1aed4;
+}
